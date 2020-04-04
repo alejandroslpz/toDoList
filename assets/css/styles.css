@@ -1,0 +1,45 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+  background-blend-mode: screen;
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#box {
+  max-width: 1200px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#header {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#butsub {
+  margin: 10px 0;
+}
+
+.eraseTask,
+.eraseTask:hover {
+  float: right;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
